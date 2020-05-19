@@ -1,0 +1,59 @@
+{
+  "name": "e-mart",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/addon-knobs": "^5.2.8",
+    "@storybook/preset-create-react-app": "^2.1.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "atom-components-kutumb": "^1.0.0",
+    "kutumb-style": "^3.0.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "storybook-addon-designs": "^5.1.1",
+    "styled-components": "^5.1.0",
+    "typescript": "^3.8.3",
+    "gh-pages": "^2.2.0"
+  },
+  "homepage": "https://techwarriors2020.github.io/Storybook-React",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 5000",
+    "build-storybook": "build-storybook",
+    "sass": "node-sass sass/ -o src/styles/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  },
+  "storybook": "start-storybook",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

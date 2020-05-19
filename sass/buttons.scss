@@ -1,0 +1,182 @@
+
+@import "colors";
+
+.ekutumb-btn  {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.ekutumb-btn-rounded  {
+  border-radius: 30px;
+}
+
+.ekutumb-success  {
+  border-color: $lightgreen;
+  color: $white;
+  background-color:$success;
+
+  &:hover {
+    background-color: $lightgreen;
+  }
+}
+.ekutumb-default  {
+  border-color: $grey;
+  color: $black;
+  background-color:$default;
+
+  &:hover {
+    background-color: $grey;
+  }
+}
+.ekutumb-basic  {
+  border-color: $white;
+  color: $black;
+  background-color:$grey;
+}
+.ekutumb-primary  {
+  border-color: $primaryhover;
+  color: $white;
+  background-color:$primary;
+  &:hover {
+    background-color: $primaryhover;
+  }
+}
+.ekutumb-warning  {
+  border-color: $lightorange;
+  color: $white;
+  background-color:$warning;
+
+  &:hover {
+    background-color: $lightorange;
+  }
+}
+
+.ekutumb-danger  {
+  border-color: $dangerhover;
+  color: $white;
+  background-color:$danger;
+
+  &:hover {
+    background-color: $dangerhover;
+  }
+}
+
+.ekutumb-link  {
+  font-weight: 400;
+  color: $blue;
+  border-radius: 0;
+
+}
+
+.ekutumb-link, .ekutumb-link:active, .ekutumb-link:focus, .ekutumb-link:hover {
+  border-color: transparent;
+}
+.ekutumb-link.active, .ekutumb-link:active, .ekutumb-link[disabled], fieldset[disabled] .ekutumb-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.ekutumb-purple  {
+  border-color: $purple;
+  color: $white;
+  background-color:$darkpurple;
+
+  &:hover {
+    background-color: $purple;
+  }
+}
+.ekutumb-info  {
+  border-color: $info;
+  color: $white;
+  background-color:$info;
+
+  &:hover {
+    background-color: $primaryhover;
+  }
+}
+
+
+
+.ekutumb-btn-outlined  {
+  border-width: 3px;
+  border-style: solid;
+  transition: all 0.5s;
+
+  &:hover {
+    color: #fff;
+    transition: all 0.5s;
+  }
+}
+
+.ekutumb-gradient-black {
+  background: $black !important;
+}
+
+.ekutumb-black {
+  border-color: $black;
+  color: $black;
+
+  &:hover {
+    background-color: $black;
+  }
+}
+
+
+
+.ekutumb-lg-btn{
+  padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.ekutumb-sm-btn{
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.ekutumb-xs-btn{
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px
+}
+
+  .ekutumb-btn.active, .ekutumb-btn:active, .open>.dropdown-toggle.ekutumb-btn {
+    color:$white;
+    background-color: $primary;
+    background-image: none;
+    border-color: $blue;
+    transition: all 0.5s;
+}
+
+.ekutumb-btn.disabled  {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  opacity: .65;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ekutumb-btn-block{
+  display:block;
+  width:100%;
+}

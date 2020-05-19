@@ -1,0 +1,14 @@
+.gradient-green {
+  background: #146114;
+  background: -webkit-linear-gradient(10deg, #146114, #12c3d2);
+  background: linear-gradient(80deg, #146114, #12c3d2); }
+
+.gradient-orange {
+  background: #FFE53B;
+  background: -webkit-linear-gradient(10deg, #FFE53B, #FF2525);
+  background: linear-gradient(80deg, #FFE53B, #FF2525); }
+
+.gradient-purple {
+  background: #21D4FD;
+  background: -webkit-linear-gradient(10deg, #21D4FD, #b81fff);
+  background: linear-gradient(80deg, #21D4FD, #b81fff); }

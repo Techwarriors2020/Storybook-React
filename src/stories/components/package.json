@@ -1,0 +1,11 @@
+{
+  "name": "kutumb-components",
+  "version": "1.0.0",
+  "description": "These are components build in react and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ds",
+  "license": "ISC"
+}

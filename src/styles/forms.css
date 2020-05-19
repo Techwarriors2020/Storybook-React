@@ -1,0 +1,186 @@
+@charset "UTF-8";
+form {
+  width: 100%; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="file"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea,
+textarea[type=text] {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  transition: all .2s ease;
+  border-width: 1px;
+  border-color: #212121;
+  border-style: solid;
+  border-radius: 2px; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  input[type="search"]:focus,
+  input[type="number"]:focus,
+  input[type="file"]:focus,
+  input[type="tel"]:focus,
+  input[type="url"]:focus,
+  select:focus,
+  textarea:focus,
+  textarea[type=text]:focus {
+    border-color: #212121;
+    transition: all .2s ease; }
+
+input, textarea {
+  padding: .9rem 1rem .9rem 2rem; }
+
+select {
+  background: #fff;
+  padding: .9rem .5rem .9rem .5rem;
+  margin: 1.2rem 0; }
+
+textarea {
+  resize: vertical;
+  min-height: 12rem;
+  margin: 0; }
+
+.ekutumb-input-field span:before {
+  cursor: pointer;
+  position: relative;
+  font-family: 'fontawesome';
+  top: 3rem;
+  left: .6rem;
+  color: #212121; }
+
+.ekutumb-text-area-field span:before {
+  top: 1.8rem; }
+
+.ekutumb-user-icon:before {
+  content: ''; }
+
+.ekutumb-email-icon:before {
+  content: ''; }
+
+.ekutumb-edit-icon:before {
+  content: ''; }
+
+.ekutumb-caret-icon:before {
+  content: '▼'; }
+
+label {
+  cursor: pointer; }
+  label input[type="checkbox"] {
+    display: none; }
+    label input[type="checkbox"] + span:before {
+      content: '';
+      font-family: 'fontawesome';
+      border: 1px solid #212121;
+      padding: .4rem .4rem;
+      border-radius: 2px;
+      transition: .2s;
+      color: rgba(255, 255, 255, 0);
+      font-size: 16px; }
+  label input[type="checkbox"]:checked + span:before {
+    content: '';
+    font-family: 'fontawesome';
+    border: 1px solid #212121;
+    padding: .4rem .4rem;
+    border-radius: 2px;
+    transition: .2s;
+    color: #212121;
+    font-size: 16px; }
+  label input[type="radio"] {
+    display: none; }
+    label input[type="radio"] + span:before {
+      content: '';
+      font-family: 'fontawesome';
+      border: 1px solid #212121;
+      padding: .3rem .4rem;
+      border-radius: 100%;
+      transition: .2s;
+      color: rgba(255, 255, 255, 0);
+      font-size: 14px; }
+  label input[type="radio"]:checked + span:before {
+    content: '';
+    font-family: 'fontawesome';
+    border: 1px solid #212121;
+    padding: .3rem .4rem;
+    border-radius: 100%;
+    transition: .2s;
+    color: #212121;
+    font-size: 14px; }
+
+.ekutumb-blue-input input[type="text"],
+.ekutumb-blue-input input[type="password"],
+.ekutumb-blue-input input[type="email"],
+.ekutumb-blue-input input[type="search"],
+.ekutumb-blue-input input[type="number"],
+.ekutumb-blue-input input[type="file"],
+.ekutumb-blue-input input[type="tel"],
+.ekutumb-blue-input input[type="url"],
+.ekutumb-blue-input select,
+.ekutumb-blue-input textarea,
+.ekutumb-blue-input textarea[type="text"] {
+  border-color: #146114; }
+  .ekutumb-blue-input input[type="text"]:focus,
+  .ekutumb-blue-input input[type="password"]:focus,
+  .ekutumb-blue-input input[type="email"]:focus,
+  .ekutumb-blue-input input[type="search"]:focus,
+  .ekutumb-blue-input input[type="number"]:focus,
+  .ekutumb-blue-input input[type="file"]:focus,
+  .ekutumb-blue-input input[type="tel"]:focus,
+  .ekutumb-blue-input input[type="url"]:focus,
+  .ekutumb-blue-input select:focus,
+  .ekutumb-blue-input textarea:focus,
+  .ekutumb-blue-input textarea[type="text"]:focus {
+    border-color: #12c3d2; }
+
+.ekutumb-blue-input span:before {
+  color: #146114; }
+
+.ekutumb-error-input input[type="text"],
+.ekutumb-error-input input[type="password"],
+.ekutumb-error-input input[type="email"],
+.ekutumb-error-input input[type="search"],
+.ekutumb-error-input input[type="number"],
+.ekutumb-error-input input[type="file"],
+.ekutumb-error-input input[type="tel"],
+.ekutumb-error-input input[type="url"],
+.ekutumb-error-input select,
+.ekutumb-error-input textarea,
+.ekutumb-error-input textarea[type="text"] {
+  border-color: #f44336; }
+  .ekutumb-error-input input[type="text"]:focus,
+  .ekutumb-error-input input[type="password"]:focus,
+  .ekutumb-error-input input[type="email"]:focus,
+  .ekutumb-error-input input[type="search"]:focus,
+  .ekutumb-error-input input[type="number"]:focus,
+  .ekutumb-error-input input[type="file"]:focus,
+  .ekutumb-error-input input[type="tel"]:focus,
+  .ekutumb-error-input input[type="url"]:focus,
+  .ekutumb-error-input select:focus,
+  .ekutumb-error-input textarea:focus,
+  .ekutumb-error-input textarea[type="text"]:focus {
+    border-color: #f77066; }
+
+.ekutumb-error-input span:before {
+  color: #f44336; }
+
+.ekutumb-green-checkbox + span:before {
+  border-color: #146114 !important;
+  color: rgba(255, 255, 255, 0) !important; }
+
+.ekutumb-green-checkbox:checked + span:before {
+  color: #146114 !important; }
+
+.ekutumb-black-checkbox + span:before {
+  border-color: #212121 !important;
+  color: rgba(255, 255, 255, 0) !important; }
+
+.ekutumb-black-checkbox:checked + span:before {
+  color: #212121 !important; }
