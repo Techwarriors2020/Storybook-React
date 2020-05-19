@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/Storybook-React/static/css/main.da6663f7.chunk.css",
-    "main.js": "/Storybook-React/static/js/main.e3ee80e2.chunk.js",
-    "main.js.map": "/Storybook-React/static/js/main.e3ee80e2.chunk.js.map",
-    "runtime-main.js": "/Storybook-React/static/js/runtime-main.970863d4.js",
-    "runtime-main.js.map": "/Storybook-React/static/js/runtime-main.970863d4.js.map",
-    "static/css/2.59222f74.chunk.css": "/Storybook-React/static/css/2.59222f74.chunk.css",
-    "static/js/2.0734da0b.chunk.js": "/Storybook-React/static/js/2.0734da0b.chunk.js",
-    "static/js/2.0734da0b.chunk.js.map": "/Storybook-React/static/js/2.0734da0b.chunk.js.map",
-    "index.html": "/Storybook-React/index.html",
-    "precache-manifest.d6c8624a6e6f3d0272263e6bdb2fe405.js": "/Storybook-React/precache-manifest.d6c8624a6e6f3d0272263e6bdb2fe405.js",
+    "main.css": "/Storybook-React/static/css/main.9491bc90.chunk.css",
+    "main.js": "/Storybook-React/main.28205074a985b694dffc.bundle.js",
+    "main.css.map": "/Storybook-React/static/css/main.9491bc90.chunk.css.map",
+    "main.js.map": "/Storybook-React/main.28205074a985b694dffc.bundle.js.map",
+    "runtime~main.js": "/Storybook-React/runtime~main.28205074a985b694dffc.bundle.js",
+    "runtime~main.js.map": "/Storybook-React/runtime~main.28205074a985b694dffc.bundle.js.map",
+    "vendors~main.js": "/Storybook-React/vendors~main.28205074a985b694dffc.bundle.js",
+    "vendors~main.js.map": "/Storybook-React/vendors~main.28205074a985b694dffc.bundle.js.map",
+    "iframe.html": "/Storybook-React/iframe.html",
+    "precache-manifest.fb3e650e800239c965f942f85276719f.js": "/Storybook-React/precache-manifest.fb3e650e800239c965f942f85276719f.js",
     "service-worker.js": "/Storybook-React/service-worker.js",
-    "static/css/2.59222f74.chunk.css.map": "/Storybook-React/static/css/2.59222f74.chunk.css.map",
-    "static/css/main.da6663f7.chunk.css.map": "/Storybook-React/static/css/main.da6663f7.chunk.css.map",
-    "static/js/2.0734da0b.chunk.js.LICENSE.txt": "/Storybook-React/static/js/2.0734da0b.chunk.js.LICENSE.txt"
+    "vendors~main.28205074a985b694dffc.bundle.js.LICENSE.txt": "/Storybook-React/vendors~main.28205074a985b694dffc.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.970863d4.js",
-    "static/css/2.59222f74.chunk.css",
-    "static/js/2.0734da0b.chunk.js",
-    "static/css/main.da6663f7.chunk.css",
-    "static/js/main.e3ee80e2.chunk.js"
+    "runtime~main.28205074a985b694dffc.bundle.js",
+    "vendors~main.28205074a985b694dffc.bundle.js",
+    "static/css/main.9491bc90.chunk.css",
+    "main.28205074a985b694dffc.bundle.js"
   ]
 }
