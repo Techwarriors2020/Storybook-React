@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Storybook-React/static/css/main.b0e21763.chunk.css",
+    "main.js": "/Storybook-React/main.434a84a039e64bf52d97.bundle.js",
+    "main.css.map": "/Storybook-React/static/css/main.b0e21763.chunk.css.map",
+    "main.js.map": "/Storybook-React/main.434a84a039e64bf52d97.bundle.js.map",
+    "runtime~main.js": "/Storybook-React/runtime~main.434a84a039e64bf52d97.bundle.js",
+    "runtime~main.js.map": "/Storybook-React/runtime~main.434a84a039e64bf52d97.bundle.js.map",
+    "vendors~main.js": "/Storybook-React/vendors~main.434a84a039e64bf52d97.bundle.js",
+    "vendors~main.js.map": "/Storybook-React/vendors~main.434a84a039e64bf52d97.bundle.js.map",
+    "iframe.html": "/Storybook-React/iframe.html",
+    "precache-manifest.22f639b999ec5288b82dc35680c606c2.js": "/Storybook-React/precache-manifest.22f639b999ec5288b82dc35680c606c2.js",
+    "service-worker.js": "/Storybook-React/service-worker.js",
+    "vendors~main.434a84a039e64bf52d97.bundle.js.LICENSE.txt": "/Storybook-React/vendors~main.434a84a039e64bf52d97.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.434a84a039e64bf52d97.bundle.js",
+    "vendors~main.434a84a039e64bf52d97.bundle.js",
+    "static/css/main.b0e21763.chunk.css",
+    "main.434a84a039e64bf52d97.bundle.js"
+  ]
+}
