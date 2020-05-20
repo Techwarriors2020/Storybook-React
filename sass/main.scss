@@ -19,11 +19,56 @@ body {
   padding: 2rem 0;
 }
 
+.ekutumb-col-1 {width: 8.33%;}
+.ekutumb-col-2 {width: 16.66%;}
+.ekutumb-col-3 {width: 25%;}
+.ekutumb-col-4 {width: 33.33%;}
+.ekutumb-col-5 {width: 41.66%;}
+.ekutumb-col-6 {width: 50%;}
+.ekutumb-col-7 {width: 58.33%;}
+.ekutumb-col-8 {width: 66.66%;}
+.ekutumb-col-9 {width: 75%;}
+.ekutumb-col-10 {width: 83.33%;}
+.ekutumb-col-11 {width: 91.66%;}
+.ekutumb-col-12 {width: 100%;}
+
+.ekutumb-layout{
+margin:0 auto;
+
+}
+
+
 .ekutumb-header  {
   padding: 4rem 0;
   text-align: center;
  
 }
+
+.ekutumb-bg-danger{
+  background-color:$danger;
+  color:$white;
+}
+
+.ekutumb-bg-success{
+  background-color:$success;
+  color:$white;
+}
+
+.ekutumb-bg-warning{
+  background-color:$warning;
+  color:$white;
+}
+
+.ekutumb-bg-purple{
+  background-color:$purple;
+  color:$white;
+}
+
+.ekutumb-bg-blue{
+  background-color:$blue;
+  color:$white;
+}
+
 
 .nav .ekutumb-logo{
   background-color:transparent;
@@ -64,6 +109,10 @@ body {
     color: #fff;
   }
 }
+
+
+
+
 
 @media screen and (max-width: 1200px) {
   .card  {
@@ -152,4 +201,9 @@ a:visited  {
 .ekutumb-mbottom {
   margin-bottom: 3rem;
 }
+
+
+
+
 }
+

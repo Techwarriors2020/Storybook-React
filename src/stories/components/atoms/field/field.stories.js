@@ -1,7 +1,7 @@
 import React from "react";
 import { withKnobs } from "@storybook/addon-knobs";
 import Field from "./field";
-
+import '../../../../styles/forms.css';
 export const TextBox = () => (
 	<Field id="user" label="userName:" fieldType="textbox" />
 );

@@ -1,20 +1,52 @@
 import React, { FunctionComponent } from 'react';
-import CardStyle from  './cards.style'
+import  './cards.css'
 
 type CardProps = {
-  title: string,
-  content:string,
+  title?: string,
+  content?:string,
+  children?: React.ReactNode;
+  props?: any;
+  clicked?: any;
+  classes?:[];
  
 }
-export const Card: FunctionComponent<CardProps> = (props) => <aside>
-<CardStyle>
-  <h2>{ props.title }</h2>
-  <p>
-    { props.content }
-  </p>
-  { props.children }
-  </CardStyle>
-</aside>
+export const Card: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+return (
+<div onClick={clicked} {...props}>  
+  { children }
+</div>
+);
+}
+export const CardBody: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+  return (
+<div onClick={clicked} {...props}>
+<div>
+  {children}
+</div>
+</div>
+);
+}
+
+export const CardHeader: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+  return (
+<div onClick={clicked} {...props}>
+  {children}
+</div>
+);
+}
+
+export const CardFooter: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+  return (
+<div onClick={clicked} {...props}>
+  {children}
+</div>
+);
+}
+
+
+
+
+
 
 
 export default Card;
