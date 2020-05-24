@@ -1,23 +1,25 @@
 import React, { FunctionComponent } from 'react';
-import  './cards.css'
 
-type CardProps = {
+
+interface ICardProps {
   title?: string,
-  content?:string,
+  content ?: string,
   children?: React.ReactNode;
-  props?: any;
-  clicked?: any;
-  classes?:[];
- 
+  props?: any,
+  clicked?: any,
+  classes?:[],
+  className?:string
+  
 }
-export const Card: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+
+export const Card: React.FC<ICardProps> = ({ clicked, children, ...props }) =>{
 return (
 <div onClick={clicked} {...props}>  
   { children }
 </div>
 );
 }
-export const CardBody: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+export const CardBody: React.FC<ICardProps> = ({ clicked, children, ...props }) =>{
   return (
 <div onClick={clicked} {...props}>
 <div>
@@ -27,7 +29,7 @@ export const CardBody: FunctionComponent<CardProps> = ({ classes, clicked, child
 );
 }
 
-export const CardHeader: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+export const CardHeader: React.FC<ICardProps> = ({ clicked, children, ...props }) =>{
   return (
 <div onClick={clicked} {...props}>
   {children}
@@ -35,7 +37,7 @@ export const CardHeader: FunctionComponent<CardProps> = ({ classes, clicked, chi
 );
 }
 
-export const CardFooter: FunctionComponent<CardProps> = ({ classes, clicked, children, ...props }) =>{
+export const CardFooter: React.FC<ICardProps> = ({ classes, clicked, children, ...props }) =>{
   return (
 <div onClick={clicked} {...props}>
   {children}
