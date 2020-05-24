@@ -13,8 +13,8 @@
 
 .gradient-purple {
   background: #21D4FD;
-  background: -webkit-linear-gradient(10deg, #21D4FD, #b81fff);
-  background: linear-gradient(80deg, #21D4FD, #b81fff); }
+  background: -webkit-linear-gradient(10deg, #21D4FD, #860e86);
+  background: linear-gradient(80deg, #21D4FD, #860e86); }
 
 a {
   text-decoration: none; }
@@ -612,7 +612,8 @@ select:focus ~ .ekutumb-select-icon svg.icon {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: .25rem; }
+  border-radius: .25rem;
+  min-height: 75px; }
 
 .ekutumb-card-header:first-child {
   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0; }
@@ -649,7 +650,7 @@ select:focus ~ .ekutumb-select-icon svg.icon {
   color: #fff; }
 
 .ekutumb-bg-purple {
-  background-color: #b81fff;
+  background-color: #860e86;
   color: #fff; }
 
 .ekutumb-bg-blue {
@@ -734,11 +735,11 @@ select:focus ~ .ekutumb-select-icon svg.icon {
   box-shadow: none; }
 
 .ekutumb-purple {
-  border-color: #b81fff;
+  border-color: #860e86;
   color: #fff;
   background-color: #860e86; }
   .ekutumb-purple:hover {
-    background-color: #b81fff; }
+    background-color: #860e86; }
 
 .ekutumb-info {
   border-color: #5bc0de;
@@ -883,7 +884,7 @@ body {
   color: #fff; }
 
 .ekutumb-bg-purple {
-  background-color: #b81fff;
+  background-color: #860e86;
   color: #fff; }
 
 .ekutumb-bg-blue {
