@@ -1,6 +1,7 @@
 import React, {Fragment} from "react";
 import { withKnobs } from "@storybook/addon-knobs";
 import Cards, {CardBody, CardHeader, CardFooter} from "./cards";
+import './cards.css';
 
 
 export const basicCard = () => (

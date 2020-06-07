@@ -1,0 +1,14 @@
+text {
+  pointer-events: none; }
+
+#chart {
+  margin: 0 auto;
+  float: left; }
+
+#question {
+  float: right;
+  color: purple;
+  font-style: italic;
+  margin-top: 25%;
+  margin-left: 22px;
+  word-break: break-word; }

@@ -820,6 +820,21 @@ select:focus ~ .ekutumb-select-icon svg.icon {
     width: 100%;
     height: 100%; }
 
+text {
+  pointer-events: none; }
+
+#chart {
+  margin: 0 auto;
+  float: left; }
+
+#question {
+  float: right;
+  color: purple;
+  font-style: italic;
+  margin-top: 25%;
+  margin-left: 22px;
+  word-break: break-word; }
+
 body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
@@ -868,33 +883,49 @@ body {
   margin: 0 auto; }
 
 .ekutumb-header {
-  padding: 4rem 0;
-  text-align: center; }
-
-.ekutumb-bg-danger {
-  background-color: #d9534f;
-  color: #fff; }
-
-.ekutumb-bg-success {
-  background-color: #5cb85c;
-  color: #fff; }
-
-.ekutumb-bg-warning {
-  background-color: #f0ad4e;
-  color: #fff; }
-
-.ekutumb-bg-purple {
+  padding: 2rem 0;
+  text-align: center;
+  float: left;
   background-color: #860e86;
   color: #fff; }
 
-.ekutumb-bg-blue {
-  background-color: #12c3d2;
-  color: #fff; }
+.ekutumb-footer {
+  padding: 1rem 0;
+  text-align: center;
+  float: left;
+  background-color: #860e86;
+  color: #fff;
+  bottom: 10px; }
 
-.nav .ekutumb-logo {
-  background-color: transparent;
-  padding: .5rem 1rem;
-  border-radius: 5px; }
+.ekutumb-left-panel {
+  border: 0px solid #ccc;
+  float: left;
+  padding-top: 8px;
+  height: 100%;
+  min-height: 300px; }
+
+.ekutumb-right-panel {
+  border: 0px solid #ccc;
+  float: left;
+  min-height: 320px;
+  clear: right; }
+
+.ekutumb-gallery-container {
+  height: 130px;
+  width: 98.5%;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  margin-top: 9px;
+  padding-left: 0px;
+  border-radius: 4px;
+  margin-left: 10px; }
+
+.header-logo {
+  //background-image: url("../../assets/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 14%;
+  background-position: center;
+  height: 0px; }
 
 .buttons a {
   margin-right: 1rem;
@@ -945,29 +976,6 @@ body {
   @media screen and (max-width: 600px) {
     .buttons .ekutumb-device {
       max-width: 80%; } }
-
-.buttons .ekutumb-footer {
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-  @media screen and (max-width: 680px) {
-    .buttons .ekutumb-footer {
-      flex-wrap: wrap;
-      flex-direction: column; } }
-  .buttons .ekutumb-footer span {
-    background-color: '#ccc';
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: .4rem 1rem;
-    margin-right: 1rem; }
-  .buttons .ekutumb-footer a {
-    color: #212121; }
-    @media screen and (max-width: 680px) {
-      .buttons .ekutumb-footer a {
-        margin-bottom: 20px; } }
-  .buttons .ekutumb-footer a:visited {
-    color: #212121; }
 
 .buttons .ekutumb-flexed {
   display: flex;
