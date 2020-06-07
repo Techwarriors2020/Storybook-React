@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Storybook-React/static/css/main.abfcf95b.chunk.css",
-    "main.js": "/Storybook-React/main.ed3810e0386a5ca16f34.bundle.js",
+    "main.js": "/Storybook-React/main.cde20485b4d34ef63818.bundle.js",
     "main.css.map": "/Storybook-React/static/css/main.abfcf95b.chunk.css.map",
-    "main.js.map": "/Storybook-React/main.ed3810e0386a5ca16f34.bundle.js.map",
-    "runtime~main.js": "/Storybook-React/runtime~main.ed3810e0386a5ca16f34.bundle.js",
-    "runtime~main.js.map": "/Storybook-React/runtime~main.ed3810e0386a5ca16f34.bundle.js.map",
-    "vendors~main.js": "/Storybook-React/vendors~main.ed3810e0386a5ca16f34.bundle.js",
-    "vendors~main.js.map": "/Storybook-React/vendors~main.ed3810e0386a5ca16f34.bundle.js.map",
+    "main.js.map": "/Storybook-React/main.cde20485b4d34ef63818.bundle.js.map",
+    "runtime~main.js": "/Storybook-React/runtime~main.cde20485b4d34ef63818.bundle.js",
+    "runtime~main.js.map": "/Storybook-React/runtime~main.cde20485b4d34ef63818.bundle.js.map",
+    "vendors~main.js": "/Storybook-React/vendors~main.cde20485b4d34ef63818.bundle.js",
+    "vendors~main.js.map": "/Storybook-React/vendors~main.cde20485b4d34ef63818.bundle.js.map",
     "iframe.html": "/Storybook-React/iframe.html",
-    "precache-manifest.e5e7f8dbdedf99af04c85648ac699f33.js": "/Storybook-React/precache-manifest.e5e7f8dbdedf99af04c85648ac699f33.js",
+    "precache-manifest.6b943c3f7b1190ff25edb547b0eaabd3.js": "/Storybook-React/precache-manifest.6b943c3f7b1190ff25edb547b0eaabd3.js",
     "service-worker.js": "/Storybook-React/service-worker.js",
-    "vendors~main.ed3810e0386a5ca16f34.bundle.js.LICENSE.txt": "/Storybook-React/vendors~main.ed3810e0386a5ca16f34.bundle.js.LICENSE.txt"
+    "vendors~main.cde20485b4d34ef63818.bundle.js.LICENSE.txt": "/Storybook-React/vendors~main.cde20485b4d34ef63818.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.ed3810e0386a5ca16f34.bundle.js",
-    "vendors~main.ed3810e0386a5ca16f34.bundle.js",
+    "runtime~main.cde20485b4d34ef63818.bundle.js",
+    "vendors~main.cde20485b4d34ef63818.bundle.js",
     "static/css/main.abfcf95b.chunk.css",
-    "main.ed3810e0386a5ca16f34.bundle.js"
+    "main.cde20485b4d34ef63818.bundle.js"
   ]
 }
