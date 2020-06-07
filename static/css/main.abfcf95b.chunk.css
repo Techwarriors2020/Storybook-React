@@ -74,11 +74,11 @@
   box-shadow: none; }
 
 .ekutumb-purple {
-  border-color: #b81fff;
+  border-color: #860e86;
   color: #fff;
   background-color: #860e86; }
   .ekutumb-purple:hover {
-    background-color: #b81fff; }
+    background-color: #860e86; }
 
 .ekutumb-info {
   border-color: #5bc0de;
@@ -402,7 +402,9 @@ select:focus ~ .ekutumb-select-icon svg.icon {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: .25rem; }
+  border-radius: .25rem; 
+  min-height:75px;
+}
 
 .ekutumb-card-header:first-child {
   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0; }
@@ -447,4 +449,4 @@ select:focus ~ .ekutumb-select-icon svg.icon {
   color: #fff; }
 
 
-/*# sourceMappingURL=main.b0e21763.chunk.css.map*/
+/*# sourceMappingURL=main.abfcf95b.chunk.css.map*/
