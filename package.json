@@ -13,10 +13,10 @@
     "d3v3": "^1.0.3",
     "gh-pages": "^2.2.0",
     "kutumb-style": "^3.5.10",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "storybook-addon-designs": "^5.1.1",
     "styled-components": "^5.1.0",
     "typescript": "^3.8.3"
